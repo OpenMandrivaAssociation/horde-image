@@ -5,21 +5,21 @@
 
 Name:          horde-image
 Version:       0.0.2
-Release:       %mkrel 1
+Release:       %mkrel 2
 Summary:       Horde Image API
 License:       LGPL
 Group:         Networking/Mail
 Url:           http://pear.horde.org/index.php?package=%{prj}
 Source0:       %{prj}-%{version}.tgz
 BuildArch:     noarch
-Requires(pre): %{_bindir}/pear
+Requires(pre): php-pear
 Requires:      php-pear
 Requires:      php-pear-channel-horde
 Requires:      php-pear-XML_SVG
 Requires:      horde-util
 BuildRequires: php-pear
 BuildRequires: php-pear-channel-horde
-BuildRoot:     %{_tmppath}/%{name}-%{version}
+
 
 %description
 This package provides an Image utility API, with backends for:
