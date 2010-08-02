@@ -5,7 +5,7 @@
 
 Name:          horde-image
 Version:       0.0.2
-Release:       %mkrel 2
+Release:       %mkrel 
 Summary:       Horde Image API
 License:       LGPL
 Group:         Networking/Mail
