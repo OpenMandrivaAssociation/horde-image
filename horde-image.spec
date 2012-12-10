@@ -86,3 +86,20 @@ fi
 %{peardir}/tests/Horde_Image/Image/svg.php
 %{peardir}/tests/Horde_Image/Image/swf.php
 
+
+
+%changelog
+* Mon Aug 02 2010 Thomas Spuhler <tspuhler@mandriva.org> 0.0.2-3mdv2011.0
++ Revision: 564907
+- Increased release for rebuild
+- Increased release for rebuild
+
+* Thu Mar 18 2010 Thomas Spuhler <tspuhler@mandriva.org> 0.0.2-2mdv2010.1
++ Revision: 524850
+- increased rel version to 2
+
+* Sun Feb 28 2010 Thomas Spuhler <tspuhler@mandriva.org> 0.0.2-1mdv2010.1
++ Revision: 512512
+- import horde-image
+
+
